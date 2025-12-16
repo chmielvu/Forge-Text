@@ -1,7 +1,7 @@
 import Graph from 'graphology';
 import { z } from 'zod';
-import { KnowledgeGraph, KGotNode, KGotEdge } from '@/lib/types/kgot';
-import { INITIAL_NODES, INITIAL_LINKS, INITIAL_LEDGER } from '@/constants';
+import { KnowledgeGraph, KGotNode, KGotEdge } from '../types/kgot';
+import { INITIAL_NODES, INITIAL_LINKS, INITIAL_LEDGER } from '../constants';
 
 export class KGotCore {
   private graph: Graph;

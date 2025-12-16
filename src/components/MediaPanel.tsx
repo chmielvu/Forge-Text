@@ -1,5 +1,5 @@
 
-import * as React from 'react';
+import React from 'react';
 import { Play, Pause, FastForward, Rewind, Volume2, VolumeX, Loader2, RefreshCw, Speaker, ImageOff, MicOff } from 'lucide-react';
 import { regenerateMediaForTurn } from '../state/mediaController';
 import { MediaStatus } from '../types';
